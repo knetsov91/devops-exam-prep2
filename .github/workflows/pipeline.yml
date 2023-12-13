@@ -24,3 +24,5 @@ jobs:
       run: npm install
     - name: Run appl unit test
       run: npm run test:unit
+    - name: Display sofuni user
+      run: echo user
